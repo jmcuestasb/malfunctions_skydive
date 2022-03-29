@@ -1,0 +1,21 @@
+{
+  "name": "expo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt uglify",
+    "start": "node server.js",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "author": "Juan Manuel Cuestas",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
+    "grunt": "^1.4.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.1.0"
+  }
+}
