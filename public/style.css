@@ -78,6 +78,7 @@
   
   .card img {
     height: 400px;
+    background-size: cover
   }
   
   .card > div {
