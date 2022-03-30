@@ -78,8 +78,6 @@ img {
 
 .card img {
   height: 400px;
-  object-fit: cover;
-  height: auto; 
 }
 
 .card > div {
