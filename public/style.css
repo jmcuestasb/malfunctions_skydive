@@ -24,6 +24,12 @@ a {
   font-weight: bold;
 }
 
+h7 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
