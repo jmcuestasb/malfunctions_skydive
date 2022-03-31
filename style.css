@@ -24,6 +24,12 @@ a {
   font-weight: bold;
 }
 
+h7 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -105,12 +111,133 @@ img {
   .card {
     display: block;
   }
+}
 
 @media only screen and (orientation:portrait) {
   body {
     height: 100vw;
     transform: rotate(90deg);
   }
- }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   
-}
+  body {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    font-size:1.3rem;
+    background-size: cover;
+    background-image: url(xielo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #66999
+  }
+  
+  a {
+    color: rgb(187, 5, 5);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h7 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    width: 100%;
+    
+  }
+  
+  .main-header {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    
+  }
+  
+  .main-header h1 span {
+    color: #b81c1f;
+  }
+  
+  .main-header p {
+    font-size: 2rem; 
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background-color: rgba(255, 238, 0, 0.9);
+    margin-bottom: 2rem;
+    
+  }
+  
+  .card h3 {
+    margin-bottom: 2rem;
+    color: #fcf9f9;
+    font-weight: bold;
+  }
+  
+  .card img {
+    height: 400px;
+    background-size: cover;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .card > div {
+    padding: 2rem;
+    
+  }
+  
+  .card:nth-child(even) img {
+    order: 2;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  @media(max-width:600px) {
+    .card {
+      display: block;
+    }
+  }
+  
+  @media only screen and (orientation:portrait) {
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+  
