@@ -24,10 +24,12 @@ a {
   font-weight: bold;
 }
 
-h7 {
+h2 {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Exo', sans-serif;
+  font-size:4rem;
 }
 
 .container {
@@ -50,7 +52,7 @@ h7 {
 }
 
 .main-header h1 {
-  font-size: 4rem;
+  font-size: 7rem;
   margin-bottom: 2rem;
   line-height: 1.2;
   
